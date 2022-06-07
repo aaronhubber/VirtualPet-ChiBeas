@@ -1,0 +1,110 @@
+#game-over {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.finish-page-text {
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#top {
+    border-bottom: solid;;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-style:dashed;
+    border-width: 8px;
+    background-color: rgb(255, 255, 255, 0.8);
+
+}
+
+#f-p-details {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 1.5vw;
+}
+
+#save-button {
+    padding:10px;
+    margin-left: 10px;
+}
+
+#is-dead {
+    font-size: large
+}
+
+#finish-page-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-areas:
+    "high-scores-list credits";
+}
+
+#credits {
+    border-style:dashed;
+    border-width: 10px;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin: 20px;
+    width: 500px;
+    padding: 50px
+}
+
+#high-scores-list {
+    border-style:dashed;
+    border-width: 10px;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin: 20px;
+    margin-left: 50px;
+    width: 500px;
+    padding: 50px;
+
+}
+
+#full-credits {
+    margin: 20px;
+    text-align: center;
+    
+}
+
+#f-p-top-info {
+    border-style:dashed;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+#play-again-button {
+    margin-top: 30px;
+    border-style: hidden;
+    background-color: transparent;
+
+}
+
+#blink {
+    text-align: center;
+        animation:blinkingText 0.4s infinite;
+    }
+    @keyframes blinkingText{
+        0%{     color: red;    }
+        40%{    color: ornage; }
+        60%{    color: pink; }
+        90%{    color:transparent;  }
+        100%{   color: green;    }
+    }
+
+#scores {
+    text-align: center;
+}
+
+
+
+

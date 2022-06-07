@@ -1,0 +1,197 @@
+:root {
+    --pixel-size: 7;
+}
+
+#background-image {
+    position: absolute;
+    z-index: -1;
+    transform: scale(1.5, 1)
+}
+
+#eye-l,  #eye-r{
+    animation: moveEyes 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+@keyframes moveEyes {
+    from {        
+        transform: translateX(3%);
+    }
+    70% {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-1%);
+    }
+}
+
+.input-name {
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+    width: 6vw;
+    font-size: 1.5vw;
+    margin-block-start: 0px;
+    height:3vw;
+    box-sizing: border-box;
+    border: 3px solid rgb(112, 112, 112);
+    background-color: #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+.input-name:focus {
+    border: 3px solid black;
+}
+
+#cb-name, #health-tag {
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin-left: 4.5vh;
+    margin-top: 5vh;
+}
+
+.style-element{
+    background-color: rgb(255, 255, 255, 0.8);
+    margin-left: 4.5vh;
+    margin-top: 5vh;
+}
+
+.healthbar {
+    width: auto;
+    height: 30px;
+    display: block;
+    width: calc(38px * var(--pixel-size));
+    margin: 2vw;
+}
+
+.healthbar-inner {
+    background: linear-gradient(to left, #10ec08, #f00303);
+    box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease 0.3s;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+}
+
+#all-game {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.head-container {
+    position: absolute;
+}
+
+.header {
+    position: fixed;
+    top: 40%;
+    font-family: 'Press Start 2P', cursive;
+    margin-block-start: 0px;
+    margin-left: 2vw;
+}
+
+button {
+    cursor: pointer;
+}
+
+#start-button {
+    cursor: pointer;
+    margin-left: 2vw;
+    margin-top: 0.8vw;
+}
+
+.game-button {
+    border-style: hidden;
+    background-color: transparent;
+}
+
+#surprise-btn {
+    margin-left: 2vw;
+    margin-top: 24%;
+    border-style: hidden;
+    background-color: transparent;
+}
+
+#home-btn {
+    margin-left: 2vw;
+    margin-top: 23%;
+    border-style: hidden;
+    background-color: transparent;
+}
+
+#end-game-btn {
+    margin-left: 2vw;
+    margin-top: 23%;
+    border-style: hidden;
+    background-color: transparent;
+}
+
+#egg{
+    width: 53%;
+    position: relative;
+    left: 30%;
+    margin-top: -3%;
+}
+
+#fire, #sleep, #idle {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    margin-top: 1%;
+    margin-left: 35%;
+}
+
+#feed, #poop, #crush, #dance, #play {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+#sick, #grave {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    margin-top: 4%;
+    margin-left: 35%;
+}
+
+.health-score{
+    background-color: #10ec08;
+}
+
+.title{
+    background-color: rgb(255, 255, 255, 0.8);
+    font-size:10vw;
+    text-align: center;
+    border-bottom: dashed;
+    border-width: 10px;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.title-tagline, .name-box{
+    background-color: transparent;
+    font-size:1.2vw;
+    margin-left: 2vw;
+}
+
+.name-input{
+    text-align: center;
+    width: fit-content;
+}
+
+
+
+
