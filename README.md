@@ -33,5 +33,5 @@ localhost:3000/
     
 ## Screenshots
 
-<img src = "../virtual-pet/chi-beas">
+![ScreenShot](start.jpeg)
 
