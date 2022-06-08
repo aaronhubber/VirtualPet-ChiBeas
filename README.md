@@ -33,5 +33,7 @@ localhost:3000/
     
 ## Screenshots
 
-![ScreenShot](https://github.com/aaronhubber/VirtualPet-ChiBeas/blob/main/client/src/images/dance.png))
+![ScreenShot](https://github.com/aaronhubber/VirtualPet-ChiBeas/blob/main/client/src/images/sleep.png))
+![ScreenShot](https://github.com/aaronhubber/VirtualPet-ChiBeas/blob/main/client/src/images/gamestart.png))
+
 
