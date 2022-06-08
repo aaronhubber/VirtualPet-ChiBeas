@@ -33,5 +33,5 @@ localhost:3000/
     
 ## Screenshots
 
-<img src = "/Users/aaron/CodeClan_Work/JavaScript/Project/virtual-pet">
+<img src = "../virtual-pet/chi-beas">
 
