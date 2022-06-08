@@ -33,5 +33,5 @@ localhost:3000/
     
 ## Screenshots
 
-![ScreenShot](start.jpeg)
+![ScreenShot](file:///Users/aaron/CodeClan_Work/JavaScript/Project/virtual-pet/chi-beas/start.jpeg)
 
